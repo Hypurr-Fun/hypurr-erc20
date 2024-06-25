@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hypurr-erc20"
+version = "0.1.0"
+description = ""
+authors = ["Laurent Zeimes <laurent@alphaticks.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+eth-brownie = ">=1.10.0,<2.0.0"
+msgpack = "^1.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

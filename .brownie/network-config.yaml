@@ -1,0 +1,4 @@
+ - name: Hyperliquid
+   chainid: 7331
+   id: testnet
+   host: https://api.hyperliquid-testnet.xyz/evm
