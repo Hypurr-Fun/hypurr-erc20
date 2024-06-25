@@ -4,9 +4,15 @@ A bare-bones implementation of the Ethereum [ERC-20 standard](https://eips.ether
 
 For binding with a hyperliquid spot asset
 
-Configure your target token and
-
 ## Basic Use
+
+### Set parameters in deploy script
+```python
+rpc_url = "https://api.hyperliquid-testnet.xyz/evm"
+deployed_contract_address = None
+token_id = "0xc14f993cb5ad363118704e783b0dddc9"
+token_name = "Test Token"
+```
 
 
 ### Initialize poetry
